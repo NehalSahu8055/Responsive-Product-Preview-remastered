@@ -1,9 +1,3 @@
-@import "tailwindcss/base";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
-
 :root {
   /* Colors */
   --darkBrown: hsla(0, 91%, 9%, 0.888);
@@ -43,7 +37,7 @@ main {
   box-shadow: var(--shadow);
 }
 
-h2 {
+h1 {
   -webkit-text-fill-color: transparent;
   background-image: var(--gradient);
   background-clip: text;
@@ -53,13 +47,13 @@ h2 {
 /* Custom classes */
 
 /*----- Fonts -----*/
-/* .font-montserrat {
+.font-montserrat {
   font-family: var(--font-montserrat);
 }
 
 .font-fraunces {
   font-family: var(--font-fraunces);
-} */
+}
 
 /*----- Clamps ------ */
 /* text-clamp-1 already  predefined in tailwind */
